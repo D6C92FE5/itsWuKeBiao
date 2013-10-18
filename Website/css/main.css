@@ -1,0 +1,52 @@
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.table {
+    margin: 20px 0;
+    font-size: 20px;
+}
+.table th, td {
+    text-align: center;
+    vertical-align: middle!important;
+}
+
+.table .head {
+    font-size: 16px;
+    padding-top: 12px;
+    width: 100px;
+}
+.table .order {
+    width: 100px;
+    font-weight: bold;
+}
+
+.table .choice {
+    cursor: pointer;
+}
+.table .delimiter {
+    border-top: 2px solid #ccc;
+}
+
+.table .free {
+    color: #27ae60;
+    font-weight: bold;
+}
+.table .busy {
+    color: #e74c3c;
+    background-color: #f5f5f5;
+}
+
+.table .names {
+    font-size: 16px;
+}
+.table .names:hover {
+    background-color: #f5f5f5;
+}
+
+button {
+    width: 100%;
+}
