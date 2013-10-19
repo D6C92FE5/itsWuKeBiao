@@ -33,10 +33,15 @@
             }
         })
         var data = {
+            group: window.location.search || window.location.hash,
             name: $('#name').val(),
             free: free
         }
         WebService.Submit(JSON.stringify(data), function () { alert("提交成功") })
         return false;
     })
+
+    window.onhashchange = function () {
+        window.location.reload();
+    }
 })()
